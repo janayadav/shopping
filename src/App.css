@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: antiquewhite;
+}
+.headerSection {
+  display: flex;
+  height: 50px;
+  padding: 10px 0px;
+  justify-content: space-between;
+  background-color: rgb(101, 101, 108);
+  color: white;
+}
+.center ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 10px;
+}
+.left {
+  flex: 2;
+}
+.center {
+  flex: 4;
+}
+.search input {
+  flex: 2;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.love {
+  margin-right: 20px;
+}
+.search {
+  padding: 5px 0px;
+}
+.right {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.bannerBox img {
+  width: 100%;
+}
+.collectionSection,
+.womenCollectionSection {
+  padding: 3px 0px;
+  display: flex;
+  width: 200px;
+  height: 212px;
+}
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 40px;
+}
+.footerSection ul li {
+  list-style: none;
+}
+h3 {
+  text-decoration: underline;
+}
